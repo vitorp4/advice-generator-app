@@ -27,7 +27,8 @@ body {
   background-color: var(--dark-grayish-blue);
   border-radius: 12px;
   color: var(--light-cyan);
-  width: 450px;
+  width: min(450px, 90vw);
+  min-width: 250px;
   padding: 36px;
   position: relative;
 }
